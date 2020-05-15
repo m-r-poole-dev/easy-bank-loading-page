@@ -1,0 +1,159 @@
+body{
+  background-color: #ff6363;
+  background-image: url("../images/bg-intro-mobile.png");
+  color:#fff0f5;
+  margin:0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1{
+  padding: 80px 20px 0 20px;
+}
+
+.intro{
+  font-size: 1.2rem;
+  padding: 0 35px;
+}
+
+.purple-card{
+  background-color: #543864;
+  border-radius: 10px;
+  box-shadow: 2px  7px 3px rgb(130, 129, 128, 0.54);
+  line-height: 1.7;
+  margin: 50px 35px 30px 35px;
+  padding: 15px 75px;
+}
+
+span{
+  font-weight: bold;;
+}
+form{
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px  7px 3px rgb(130, 129, 128, 0.54);
+  margin: 10px 35px 25px 35px;
+  padding: 35px  40px 10px 30px;
+}
+
+input{
+
+  border: solid 1px rgb(222, 222, 222);
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  margin-top:10px;
+  padding: 4% 0 4% 10px;
+
+  outline-color: grey;
+  width: 100%;
+  z-index: 0;
+}
+.input-box{
+  position: relative;
+  margin:0;
+  padding:0;
+}
+img{
+  position: absolute;
+  display: none;
+  top:30px;
+  right: 5px;
+  height: 18px;
+  width: 18px;
+}
+.feedback{
+    display: none;
+    font-size: 0.65rem;
+    font-style: italic;
+    color: #fc5d95;
+    text-align: right;
+    padding-top:5px;
+    margin-left: 10px;
+    margin:0;
+}
+
+
+
+
+.btn{
+  background-color: rgb(81, 173, 57);
+  border: 0;
+  box-shadow: 2px  5px 3px rgb(94, 168, 58);
+  color:#fff0f5;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  margin: 30px auto 0 auto;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+
+.agreement{
+  color: #999999;
+  font-size: 0.7rem;
+  padding: 2px 18px;
+
+}
+#tc{
+  color: #ff6363;
+  font-weight: bold;
+}
+
+.pink-border{
+  border-color: #ff6363;
+}
+
+@media (min-width: 70rem) {
+  *{
+
+  }
+  body{
+    background-image: url("../images/bg-intro-mobile.png");
+    display: grid;
+    grid-template-columns: 45% 55%;
+    max-height: 100vh;
+
+  }
+  h1, .intro{
+    padding:0;
+  }
+  h1{
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  img{
+    top:25px;
+    right: 10px;
+    height: 24px;
+    width: 24px;
+  }
+
+
+
+.purple-card{
+  margin-top:30px;
+  margin-bottom: 10px;
+}
+  .left-container{
+    grid-column: 1/2;
+    height:60%;
+    padding: 160px 0 0 100px;
+    text-align: left;
+
+
+  }
+  .right-container{
+    grid-column: 2/3;
+    margin: 0 50px;
+    margin-bottom: 0;
+    padding:0;
+  }
+  footer{
+    margin-top:0;
+    position: relative;
+    bottom: 25px;
+  }
+}
