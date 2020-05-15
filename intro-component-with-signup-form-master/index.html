@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="index.js"></script>
+  <link href="https://fonts.gogleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="left-container">
+
+
+    <h1>Learn to code by watching others</h1>
+    <p class="intro">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+      but understanding how developers think is invaluable.</p>
+  </div>
+  <div class="right-container">
+
+
+    <div class="purple-card"><span>Try it free 7 days</span> then $20/mo. thereafter</div>
+
+    <form>
+      <div class="input-box">
+        <img src="images/icon-error.svg" alt="">
+        <input type="text" name="fname" placeholder="First Name" >
+      </div>
+      <p class="feedback" id="fname-feedback">first name can't be empty</p>
+      <div class="input-box">
+        <img src="images/icon-error.svg" alt="">
+        <input type="text" name="sname" placeholder="Last Name" >
+      </div>
+      <p class="feedback" id="sname-feedback">last name can't be empty</p>
+      <div class="input-box">
+        <img src="images/icon-error.svg" alt="">
+        <input type="email" name="email" placeholder="Email" >
+      </div>
+      <p class="feedback" id="email-feedback">looks like an invalid email</p>
+      <div class="input-box">
+        <img src="images/icon-error.svg" alt="">
+        <input type="password" name="password" placeholder="Password" >
+      </div>
+      <p class="feedback" id="email-feedback">password name can't be empty</p>
+      <input type="submit" name="submit" value="Claim Your Free Trial" class="btn">
+      <p class="agreement">By clicking the button, you are agreeing to our <span id="tc">Terms and Services</span></p>
+    </form>
+  </div>
+
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
